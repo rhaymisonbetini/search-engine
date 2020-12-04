@@ -14,11 +14,7 @@ const initApp = () => {
     const form = document.getElementById("searchBar");
     form.addEventListener("submit", submitTheSearch);
 
-
-
 };
-
-
 
 // Procedural "workflow" function
 const submitTheSearch = (event) => {
